@@ -1,6 +1,6 @@
 Name     : scala
 Version  : 2.11.8
-Release  : 1
+Release  : 2
 URL      : https://github.com/scala/scala/archive/v2.11.8.tar.gz
 Source0  : https://github.com/scala/scala/archive/v2.11.8.tar.gz
 Source1  : https://dl.bintray.com/typesafe/scala-sha-bootstrap/org/scala-lang/bootstrap/943cd5c8802b2a3a64a010efb86ec19bac142e40/lib/ant-contrib.jar
