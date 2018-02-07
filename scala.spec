@@ -1,8 +1,8 @@
 Name     : scala
-Version  : 2.12.4
-Release  : 5
-URL      : http://localhost/cgit/projects/scala/snapshot/scala-2.12.4.tar.gz
-Source0  : http://localhost/cgit/projects/scala/snapshot/scala-2.12.4.tar.gz
+Version  : 2.12.13
+Release  : 6
+URL      : http://localhost/cgit/projects/scala/snapshot/scala-2.11.12.tar.gz
+Source0  : http://localhost/cgit/projects/scala/snapshot/scala-2.11.12.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause-Clear MIT Apache-2.0 BSD-2-Clause
@@ -13,7 +13,7 @@ Scala Distribution
 The Scala distribution requires Java 1.6 or above.
 
 %prep
-%setup -q -n scala-2.12.4
+%setup -q -n scala-2.11.12
 
 %build
 
@@ -56,12 +56,20 @@ ln -s ../share/scala/bin/scalap %{buildroot}/usr/bin/scalap
 /usr/share/scala/doc/licenses/mit_sizzle.txt
 /usr/share/scala/doc/licenses/mit_tools.tooltip.txt
 /usr/share/scala/lib/jline.jar
+/usr/share/scala/doc/licenses/mit_jquery-layout.txt
+/usr/share/scala/doc/licenses/mit_jquery-ui.txt
+/usr/share/scala/lib/scala-actors.jar
 /usr/share/scala/lib/scala-compiler-doc.jar
 /usr/share/scala/lib/scala-compiler.jar
+/usr/share/scala/lib/scala-continuations-library_2.11-1.0.2.jar
+/usr/share/scala/lib/scala-continuations-plugin_2.11.11-1.0.2.jar
 /usr/share/scala/lib/scala-library.jar
+/usr/share/scala/lib/scala-parser-combinators_2.11-1.0.4.jar
+/usr/share/scala/lib/scala-partest-extras.jar
+/usr/share/scala/lib/scala-partest-javaagent.jar
 /usr/share/scala/lib/scala-reflect.jar
 /usr/share/scala/lib/scala-repl-jline-embedded.jar
 /usr/share/scala/lib/scala-repl-jline.jar
-/usr/share/scala/lib/scala-swing_2.12-2.0.0.jar
-/usr/share/scala/lib/scala-xml_2.12-1.0.6.jar
+/usr/share/scala/lib/scala-swing_2.11-1.0.2.jar
+/usr/share/scala/lib/scala-xml_2.11-1.0.5.jar
 /usr/share/scala/lib/scalap.jar
