@@ -1,6 +1,6 @@
 Name     : scala
-Version  : 2.12.13
-Release  : 6
+Version  : 2.11.12
+Release  : 7
 URL      : http://localhost/cgit/projects/scala/snapshot/scala-2.11.12.tar.gz
 Source0  : http://localhost/cgit/projects/scala/snapshot/scala-2.11.12.tar.gz
 Summary  : No detailed summary available
